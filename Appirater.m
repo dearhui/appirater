@@ -498,7 +498,7 @@ static BOOL _alwaysUseMainBundle = NO;
 			//Temporarily use a black status bar to match the StoreKit view.
 			[self setStatusBarStyle:[UIApplication sharedApplication].statusBarStyle];
 #if __IPHONE_OS_VERSION_MAX_ALLOWED >= 70000
-			[[UIApplication sharedApplication]setStatusBarStyle:UIStatusBarStyleLightContent animated:_usesAnimation];
+			[[UIApplication sharedApplication]setStatusBarStyle:UIStatusBarStyleDefault animated:_usesAnimation];
 #endif
 		}];
 	
